@@ -6448,7 +6448,9 @@ var pdfjsWebLibs;
    var HOSTED_VIEWER_ORIGINS = [
     'null',
     'http://mozilla.github.io',
-    'https://mozilla.github.io'
+    'https://mozilla.github.io',
+    'http://localhost:15000',
+    'https://lep-lab.herokuapp.com'
    ];
    validateFileURL = function validateFileURL(file) {
     try {
